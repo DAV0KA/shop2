@@ -11,7 +11,7 @@
 
         <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" >
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Магазин</a>
+                <a class="navbar-brand" href="#">ShopSmart</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -30,6 +30,23 @@
                 </div>
             </div>
         </nav>
+
+        <div class="d-flex justify-content-center align-items-center">
+            <img class="responsive-image" src="/img/4kw.jpg" alt="Мое изображение">
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card text-bg-warning mb-3">
+                        <div style="background: #F6EA02" class="card-body">
+                            <h1 class="card-title">ShopSmart: Ваш идеальный онлайн магазин</h1>
+                            <p class="card-text">Добро пожаловать в наш интернет-магазин с широким ассортиментом высококачественных товаров по привлекательным ценам. Нас отличает удобный сервис, безопасные платежи и персонализированный подход к клиентам. Присоединяйтесь и наслаждайтесь удовольствием от покупок уже сегодня!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
 
         <script src="{{ asset('js/app.js') }}"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
