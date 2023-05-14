@@ -8,28 +8,28 @@
         <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
-
-        <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" >
+        <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">ShopSmart</a>
+                <a style="color: white; font-size: 20px;" href="#" >ShopSmart</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav text-center">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Главная</a>
+                            <a href="#">Главная</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Категории</a>
+                            <a href="#">Категории</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Товары</a>
+                            <a href="#">Товары</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
 
         <div class="d-flex justify-content-center align-items-center">
             <img class="responsive-image" src="/img/4kw.jpg" alt="Мое изображение">

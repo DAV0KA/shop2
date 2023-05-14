@@ -6,3 +6,18 @@ img {
     width: auto; /* Установить ширину изображения */
     height: 94vh; /* Автоматический расчет высоты, чтобы сохранить пропорции */
 }
+a {
+    display: block;
+    padding: 0.5rem 1rem;
+    margin: 5px;
+    color: #9b9b9b;
+    text-decoration: none;
+    transition: font-size 0.5s ease; /* Плавный переход размера текста */
+}
+a:hover {
+    background: black;
+    color: #ffffff;
+    outline: 2px solid yellow;
+    border-radius: 15px;
+    font-size: 20px; /* Увеличенный размер текста при наведении */
+}
